@@ -38,3 +38,8 @@ export const base64toBlob = (base64, type) => {
   const blob = new Blob([uint8Array], { type });
   return blob;
 };
+
+export const dataUrlToBlob = async (dataUrl) => {
+  const res = await fetch(dataUrl);
+  return await res.blob();
+};
