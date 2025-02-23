@@ -2,6 +2,7 @@
   "name": "base64-universal",
   "version": "0.0.2",
   "main": "base64.mjs",
+  "types": "base64.d.ts",
   "type": "module",
   "repository": {
     "type": "git",
